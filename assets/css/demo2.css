@@ -2,7 +2,7 @@
   --theme-color: #0163d2; }
 
 .theme-color2 {
-  --theme-color: #e22454; }
+  --theme-color: #ac2f24; }
 
 .theme-color3 {
   --theme-color: #7520dd; }
@@ -4936,7 +4936,7 @@ header .main-navbar {
       .home-style-2 .share-icons ul li {
         padding: 10px; }
   .home-style-2 .home-left-wrapper {
-    background-color: #232323;
+    background-color: #163c66;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
