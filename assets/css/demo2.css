@@ -1234,7 +1234,7 @@ h2 {
   margin: 0; }
 
 h3 {
-  font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+  /* font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320))); */
   font-weight: 500;
   line-height: 1.2;
   margin: 0; }
@@ -1252,7 +1252,8 @@ h5 {
   font-weight: 400; }
 
 h6 {
-  font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320)));
+  /* font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320))); */
+  font-size: 30px;
   line-height: 1.2;
   margin: 0;
   font-weight: 400; }
@@ -5045,7 +5046,7 @@ header .main-navbar {
           letter-spacing: 5px; } }
       @media (max-width: 480px) {
         .home-style-2 .left-content .home-content > div > h6 {
-          font-size: 10px;
+          font-size: 15px;
           letter-spacing: 2px;
           margin-bottom: 0 !important; } }
   @media (max-width: 1366px) {
@@ -5460,7 +5461,7 @@ header .main-navbar {
       .collection-banner .banner-text h3.h-bottom {
         margin-bottom: calc(2px + (20 - 2) * ((100vw - 320px) / (1920 - 320)));
         margin-top: -6px;
-        color: #212529; }
+        color: white; }
     .collection-banner .banner-text .btn {
       font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320))); }
 
@@ -13117,6 +13118,16 @@ hr {
           font-size: 20px; }
           .details-items .cloth-details-size .share-it .share-option li a:hover {
             color: #696969; }
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #163c66;
+    z-index: -1;
+}
 
 .cloth-review .nav-tabs {
   -ms-flex-wrap: initial;
