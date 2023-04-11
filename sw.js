@@ -1,4 +1,4 @@
-var cacheName = 'Voxo';
+var cacheName = 'Mostafeed';
 var filesToCache = [
   './',
   './index.html',
