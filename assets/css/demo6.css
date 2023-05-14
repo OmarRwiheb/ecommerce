@@ -5001,7 +5001,7 @@ header .main-navbar {
         margin-right: 4px; }
     .product-box .product-details h5 {
       margin: 5px auto 6px auto;
-      -webkit-line-clamp: 1;
+      -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       display: -webkit-box;
       overflow: hidden;
@@ -5431,7 +5431,7 @@ header .main-navbar {
     .product-style-1 .product-box .top-wishlist span {
       font-size: 13px; }
   .product-style-1 .product-box .product-details h5 {
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     color: #212529;
     margin: 5px auto; }
 
@@ -12018,7 +12018,7 @@ hr {
         text-transform: capitalize; }
         .category-image .category-contain .product-list li a {
           font-size: 14px;
-          -webkit-line-clamp: 1;
+          -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;
           display: -webkit-box;
           overflow: hidden; }
